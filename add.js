@@ -9,8 +9,8 @@ function Add(numbers)
 {
     
     var x = "-5";
-    var y = "1";
-    var z = "2";
+    var y = "0";
+    var z = "0";
     
     var num1 = parseInt(x);
     var num2 = parseInt(y);
@@ -18,7 +18,7 @@ function Add(numbers)
     
     if (num1 < 0)
     {
-        console.log("Negatives not allowed: " + num1);
+        throw ("Negatives not allowed: " + num1);
     }
     else if (num1 > 1000)
     {
@@ -27,7 +27,7 @@ function Add(numbers)
     }
     else if (num2 < 0)
     {
-        console.log("Negatives not allowed: " + num2);
+        throw ("Negatives not allowed: " + num2);
     }
     else if (num2 > 1000)
     {
@@ -36,7 +36,7 @@ function Add(numbers)
     }
     else if (num3 < 0)
     {
-        console.log("Negatives not allowed: " + num3);
+        throw ("Negatives not allowed: " + num3);
     }
     else if (num3 > 1000)
     {

@@ -8,8 +8,8 @@
 function Add(numbers)
 {
     var x = "0";
-    var y = "";
-    var z = "2";
+    var y = "2";
+    var z = "3";
     
     var num1 = parseInt(x) || 0;
     var num2 = parseInt(y) || 0;

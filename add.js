@@ -7,28 +7,15 @@
 
 function Add(numbers)
 {
-    var x = "";
-    var y = "1";
+    var x = "0";
+    var y = "";
     var z = "2";
     
-    var num1 = parseInt(x);
-    var num2 = parseInt(y);
-    var num3 = parseInt(z);
+    var num1 = parseInt(x) || 0;
+    var num2 = parseInt(y) || 0;
+    var num3 = parseInt(z) || 0;
     
-    if (num1 === "")
-    {
-        num1 === 0;
-
-    }
-    else if (num2 === "")
-    {
-        num2 === 0;
-    }  
-    else if (num3 === "")
-    {
-        num3 === 0;
-    }
-    else if (num1 < 0)
+    if (num1 < 0)
     {
         throw ("Negatives not allowed: " + num1);
     }
